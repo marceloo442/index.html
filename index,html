@@ -1,1 +1,96 @@
-
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>NINE OUTLET</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <header>
+       <div class="menu">
+           <img src="data:image/png;base64,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" alt="logo" class="logo"> <!-- Altere para o caminho correto -->
+           <nav>
+               <ul>
+                   <li><a href="#shp[[ing]]">shopping</a></li>
+                   <li><a href="#carrinho">carrinho</a></li>
+                   <li><a href="#suporte">suporte</a></li>
+               </ul>
+           </nav>
+       </div>
+   </header>
+   <main>
+       <section class="cards-container"> <!-- Corrigido de <selection> para <section> -->
+           <!-------card 1-------->
+           <div class="card">
+               <img src="https://ddlns2dam76cr.cloudfront.net/Custom/Content/Products/10/49/104954_camiseta-oversized-com-detalhe-no-decote-01-24-2879_l1_638621730893780609.webp" width="200" height="200" alt="camisa oversized">
+               <h2>camisa oversized branca</h2> <!-- Alterado de <h1> para <h2> -->
+               <p>R$189</p>
+               <button>clique aqui</button>
+           </div>
+           <!-------card 2-------->
+           <div class="card">
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcchQTVforCflADRonQb7eq2DtuuEGEtIY3A&s" width="200" height="200" alt="camisa preta">
+               <h2>camisa oversized preta</h2> <!-- Alterado de <h1> para <h2> -->
+               <p>R$189</p>
+               <button>Saiba Mais</button>
+           </div>
+           <!-------card 3-------->
+           <div class="card">
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEtgOo2NKnocnLQhccr9c4B4UR2RZ5uBiA4w&s" width="200" height="200" alt="camisa cinza">
+               <h2>camisa oversized cinza</h2> <!-- Alterado de <h1> para <h2> -->
+               <p>R$189</p>
+               <button>Saiba Mais</button>
+           </div>
+           <!-------card 4-------->
+           <div class="card">
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToRKcDnSVZh3QP_EGFyxgHy2YhaFgVkVanwA&s" width="200" height="200" alt="camisa marrom">
+               <h2>camisa oversized marrom</h2> <!-- Alterado de <h1> para <h2> -->
+               <p>R$189</p>
+               <button>Saiba Mais</button>
+           </div>
+           <!-------card 5-------->
+           <div class="card">
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6BO-lc3m6FtOm8quZO-u75CJQb7dLL9E9MA&s" width="200" height="200" alt="camisa estampada">
+               <h2>camisa oversized estampada preta</h2> <!-- Alterado de <h1> para <h2> -->
+               <p>R$189</p>
+               <button>Saiba Mais</button>
+           </div>
+           <!-------card 6-------->
+           <div class="card">
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtRtLbc6aCat2_3P_F5MZtqhIaxkkq6z2kgw&s" width="200" height="200" alt="camisa vermelha">
+               <h2>camisa oversized vermelha</h2> <!-- Alterado de <h1> para <h2> -->
+               <p>R$189</p>
+               <button>Saiba Mais</button>
+           </div>
+           <!-------card 7-------->
+           <div class="card">
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-MWScv7-RTKqeE6LcCTjvL_OQ8Z3NONF4wQ&s" width="200" height="200" alt="camisa vinho">
+               <h2>camisa oversized vinho</h2> <!-- Alterado de <h1> para <h2> -->
+               <p>R$189</p>
+               <button>Saiba Mais</button>
+           </div>
+           <!-------card 8-------->
+           <div class="card">
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA9vgNqYmzpYN6398P2YCePBVJ12cMZxtCkQ&s" width="200" height="200" alt="camisa preta chronic">
+               <h2>camisa chronic oversized preta</h2> <!-- Alterado de <h1> para <h2> -->
+               <p>R$200</p>
+               <button>Saiba Mais</button>
+           </div>
+           <!-------card 9-------->
+           <div class="card">
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5gtZygFPpBzcHOj4ule3nr8QvdwO0gosaKg&s" width="200" height="200" alt="camisa branca chronic">
+               <h2>camisa chronic oversized branca</h2> <!-- Alterado de <h1> para <h2> -->
+               <p>R$200</p>
+               <button>Saiba Mais</button>
+           </div>
+       </section>
+   </main>
+   <footer id="contato">
+       <div class="footer-content">
+           <h2>Contato</h2>
+           <p>Email: nineoutlet9@gmail.com.br</p>
+           <p>Telefone: (24)99888-9248</p>
+           <p>&copy; 2023 nineoutlet9</p>
+       </div>
+   </footer>
+</body>
+</html>
